@@ -7,13 +7,10 @@
 
 int main()
 {
-  int i,n,sum=0;
+  int n,sum;
   printf("Please enter the value of n. \n");
   scanf("%d",&n);
-  for(i=1;i<=n;i++)
-  {
-    sum = sum+i;  
-  }
+  sum=(n*(n+1))/2;
   printf("The sum of %d nnatural umbers is %d" ,n ,sum);
     return 0;
 }
