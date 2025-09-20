@@ -18,4 +18,5 @@ int main ()
     else
     printf("Not a Amstrong number");
     return 0;
+
 }
